@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@infobae/infobae-chatbot": "^0.1.0",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.7.3",
     "dotenv": "^16.4.5",
-    "next": "14.1.4",
+    "micromark": "^4.0.0",
+    "next": "^14.2.5",
     "openai": "^4.46.0",
     "react": "^18",
     "react-dom": "^18",

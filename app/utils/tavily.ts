@@ -30,7 +30,7 @@ interface TavilySearchResponse {
     }[];
 }
 
-export const tavilySearch = async (params: TavilySearchParams): Promise<TavilySearchResponse> => {
+const tavilySearch = async (params: TavilySearchParams): Promise<TavilySearchResponse> => {
   try {
     const {
       query,
@@ -72,3 +72,5 @@ export const tavilySearch = async (params: TavilySearchParams): Promise<TavilySe
     throw error;
   }
 };
+
+{ export tavilySearch };
