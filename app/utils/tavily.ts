@@ -73,4 +73,4 @@ const tavilySearch = async (params: TavilySearchParams): Promise<TavilySearchRes
   }
 };
 
-{ export tavilySearch };
+export { tavilySearch };
